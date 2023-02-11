@@ -1,0 +1,15 @@
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/bin/Debug/net6.0/GameCore
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/bin/Debug/net6.0/GameCore.deps.json
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/bin/Debug/net6.0/GameCore.runtimeconfig.json
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/bin/Debug/net6.0/GameCore.dll
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/bin/Debug/net6.0/GameCore.pdb
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/GameCore.csproj.AssemblyReference.cache
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/GameCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/GameCore.AssemblyInfoInputs.cache
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/GameCore.AssemblyInfo.cs
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/GameCore.csproj.CoreCompileInputs.cache
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/GameCore.dll
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/refint/GameCore.dll
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/GameCore.pdb
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/GameCore.genruntimeconfig.cache
+/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/Debug/net6.0/ref/GameCore.dll

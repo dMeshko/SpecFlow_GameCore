@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore.Features/GameCore.Features.csproj": {}
+  },
+  "projects": {
+    "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore.Features/GameCore.Features.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore.Features/GameCore.Features.csproj",
+        "projectName": "GameCore.Features",
+        "projectPath": "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore.Features/GameCore.Features.csproj",
+        "packagesPath": "/Users/darkomeskovski/.nuget/packages/",
+        "outputPath": "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore.Features/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/darkomeskovski/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/GameCore.csproj": {
+                "projectPath": "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/GameCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/GameCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/GameCore.csproj",
+        "projectName": "GameCore",
+        "projectPath": "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/GameCore.csproj",
+        "packagesPath": "/Users/darkomeskovski/.nuget/packages/",
+        "outputPath": "/Users/darkomeskovski/Projects/_playground/SpecFlow_GameCore/GameCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/darkomeskovski/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
