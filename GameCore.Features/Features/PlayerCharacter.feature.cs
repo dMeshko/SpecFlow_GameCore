@@ -91,7 +91,7 @@ namespace GameCore.Features.Features
                     "playerCombat"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Taking no damage when hit doesn\'t affect health", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 7
+#line 9
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -111,13 +111,13 @@ namespace GameCore.Features.Features
             else
             {
                 this.ScenarioStart();
-#line 8
+#line 10
         testRunner.Given("I\'m a new player from race Human", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 11
         testRunner.When("I take 0 damage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 12
         testRunner.Then("My health should be 100", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -129,13 +129,15 @@ namespace GameCore.Features.Features
         [Xunit.TraitAttribute("FeatureTitle", "PlayerCharacter")]
         [Xunit.TraitAttribute("Description", "Starting health is reduced when hit (damage mitigation of 20 is applied for Elf r" +
             "ace)")]
+        [Xunit.TraitAttribute("Category", "playerCombat")]
         public virtual void StartingHealthIsReducedWhenHitDamageMitigationOf20IsAppliedForElfRace()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "playerCombat"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Starting health is reduced when hit (damage mitigation of 20 is applied for Elf r" +
                     "ace)", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 12
+#line 15
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -155,13 +157,13 @@ namespace GameCore.Features.Features
             else
             {
                 this.ScenarioStart();
-#line 13
+#line 16
         testRunner.Given("I\'m a new player from race Elf", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 14
+#line 17
         testRunner.When("I take 40 damage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 15
+#line 18
         testRunner.Then("My health should be 80", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -173,13 +175,15 @@ namespace GameCore.Features.Features
         [Xunit.TraitAttribute("FeatureTitle", "PlayerCharacter")]
         [Xunit.TraitAttribute("Description", "Starting health is reduced without damage mitigation when hit for non-elf classes" +
             "")]
+        [Xunit.TraitAttribute("Category", "playerCombat")]
         public virtual void StartingHealthIsReducedWithoutDamageMitigationWhenHitForNon_ElfClasses()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "playerCombat"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Starting health is reduced without damage mitigation when hit for non-elf classes" +
                     "", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 17
+#line 20
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -199,13 +203,13 @@ namespace GameCore.Features.Features
             else
             {
                 this.ScenarioStart();
-#line 18
+#line 21
         testRunner.Given("I\'m a new player from race Human", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 19
+#line 22
         testRunner.When("I take 40 damage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 20
+#line 23
         testRunner.Then("My health should be 60", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -215,12 +219,14 @@ namespace GameCore.Features.Features
         [Xunit.SkippableFactAttribute(DisplayName="Taking too much damage results in player death")]
         [Xunit.TraitAttribute("FeatureTitle", "PlayerCharacter")]
         [Xunit.TraitAttribute("Description", "Taking too much damage results in player death")]
+        [Xunit.TraitAttribute("Category", "playerCombat")]
         public virtual void TakingTooMuchDamageResultsInPlayerDeath()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "playerCombat"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Taking too much damage results in player death", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 22
+#line 26
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -240,13 +246,13 @@ namespace GameCore.Features.Features
             else
             {
                 this.ScenarioStart();
-#line 23
+#line 27
         testRunner.Given("I\'m a new player from race Elf", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 24
+#line 28
         testRunner.When("I take 130 damage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 25
+#line 29
         testRunner.Then("I should be dead", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -256,6 +262,7 @@ namespace GameCore.Features.Features
         [Xunit.SkippableTheoryAttribute(DisplayName="Damage mitigation and effect")]
         [Xunit.TraitAttribute("FeatureTitle", "PlayerCharacter")]
         [Xunit.TraitAttribute("Description", "Damage mitigation and effect")]
+        [Xunit.TraitAttribute("Category", "playerCombat")]
         [Xunit.InlineDataAttribute("Elf", "35", "85", new string[0])]
         [Xunit.InlineDataAttribute("Human", "50", "50", new string[0])]
         [Xunit.InlineDataAttribute("Troll", "30", "70", new string[0])]
@@ -263,13 +270,19 @@ namespace GameCore.Features.Features
         [Xunit.InlineDataAttribute("Human", "110", "0", new string[0])]
         public virtual void DamageMitigationAndEffect(string race, string damage, string remainingHealth, string[] exampleTags)
         {
-            string[] tagsOfScenario = exampleTags;
+            string[] @__tags = new string[] {
+                    "playerCombat"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            string[] tagsOfScenario = @__tags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("race", race);
             argumentsOfScenario.Add("damage", damage);
             argumentsOfScenario.Add("remainingHealth", remainingHealth);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Damage mitigation and effect", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 27
+#line 34
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -289,13 +302,13 @@ namespace GameCore.Features.Features
             else
             {
                 this.ScenarioStart();
-#line 28
+#line 35
         testRunner.Given(string.Format("I\'m a new player from race {0}", race), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 29
+#line 36
         testRunner.When(string.Format("I take {0} damage", damage), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 30
+#line 37
         testRunner.Then(string.Format("My health should be {0}", remainingHealth), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -305,12 +318,14 @@ namespace GameCore.Features.Features
         [Xunit.SkippableFactAttribute(DisplayName="Elf race characters get additional 20 damage mitigation using data table")]
         [Xunit.TraitAttribute("FeatureTitle", "PlayerCharacter")]
         [Xunit.TraitAttribute("Description", "Elf race characters get additional 20 damage mitigation using data table")]
+        [Xunit.TraitAttribute("Category", "playerCombat")]
         public virtual void ElfRaceCharactersGetAdditional20DamageMitigationUsingDataTable()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "playerCombat"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Elf race characters get additional 20 damage mitigation using data table", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 39
+#line 50
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -330,7 +345,7 @@ namespace GameCore.Features.Features
             else
             {
                 this.ScenarioStart();
-#line 40
+#line 51
         testRunner.Given("I\'m a new player from race Elf", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
@@ -339,14 +354,14 @@ namespace GameCore.Features.Features
                 table1.AddRow(new string[] {
                             "Armor",
                             "30"});
-#line 41
-            testRunner.And("I have the following attributes", ((string)(null)), table1, "And ");
+#line 52
+        testRunner.And("I have the following attributes", ((string)(null)), table1, "And ");
 #line hidden
-#line 44
-           testRunner.When("I take 40 damage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 55
+        testRunner.When("I take 40 damage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 45
-           testRunner.Then("My health should be 100", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 56
+        testRunner.Then("My health should be 100", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
