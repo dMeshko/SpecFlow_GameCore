@@ -4,6 +4,6 @@ namespace GameCore.Features.Steps;
 
 public class PlayerCharacterStepsContext
 {
-    public PlayerCharacter PlayerCharacter { get; set; } = new PlayerCharacter(PlayerCharacterRace.Elf);
+    public PlayerCharacter PlayerCharacter { get; set; }
     public int StartingMagicalPower { get; set; }
 }

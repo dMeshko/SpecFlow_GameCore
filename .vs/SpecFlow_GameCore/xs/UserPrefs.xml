@@ -1,25 +1,16 @@
 ﻿<Properties StartupConfiguration="{15A6210C-E5ED-4905-B753-EF8168764E6A}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GameCore PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GameCore.Features/Steps/CalculatorStepDefinitions.cs">
-    <Files>
-      <File FileName="GameCore.Specs/Steps/PlayerCharacterSteps.cs" Line="9" Column="21" />
-      <File FileName="GameCore.Features/Steps/CalculatorStepDefinitions.cs" Line="16" Column="19" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SpecFlow_GameCore" expanded="True">
             <Node name="GameCore.Features" expanded="True">
-              <Node name="Steps" expanded="True">
-                <Node name="CalculatorStepDefinitions.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="GameCore.Specs" expanded="True">
               <Node name="Steps" expanded="True" />
             </Node>
           </Node>
@@ -27,5 +18,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.GameCore PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
 </Properties>
